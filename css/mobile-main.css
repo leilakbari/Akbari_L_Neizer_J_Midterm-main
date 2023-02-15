@@ -1,0 +1,141 @@
+/* CSS Document */
+
+/*Remove this rule on your HTML elements as you start to fill them with content*/
+
+.box-color {
+	color: #fff;
+	background: #000;
+	text-align: center;
+	margin: 0;
+}
+
+/*basic reset*/
+
+/*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
+
+div,p,body,header,footer,section,article,nav { 
+	margin: 0; 
+	padding: 0; 
+}	
+
+
+/* 
+
+    CSS Guide
+
+    1. General Styles
+    2. Grid
+    3. Header
+    4. Main Hero Image
+    5. Popular Categories
+    6. Why Kadot
+    7. Contact Form
+    8. Footer
+
+*/
+
+
+/* 1. ---General Styles--- */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+/* Remove underlines from links */
+
+a {
+	text-decoration: none;
+}
+
+img { 
+	border: none; /*Remove border if image is a link*/
+	margin: 0; 
+	padding: 0; 
+}
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden {
+	display: none;
+}
+
+
+/*Common page elements  */
+
+/*This is essentially a box that we place the whole site in.  
+We center the box using margin 0 auto and give it a fixed width of 428px.
+428px would fit some phones. Sizes will vary depending on the projects
+you work on and the intended audience, we may go as low as 320px */
+
+#container {
+	margin: 0 auto;
+	width: 428px;
+}
+
+/* 2. ---Grid--- */
+
+.grid-con {
+	display: grid;
+	grid-template-columns: repeat(4, 71px);
+	grid-column-gap: 16px;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+
+/* 3. ---Header--- */
+
+#header-con {
+	background-color: #F4C8C3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#logo {
+	margin-left: 21px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	grid-column: 1/1;
+	height: 90px;
+}
+
+#search-header {
+	grid-column: 2/4;
+    background-color: #fff;
+    color: #1F221A;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 35px;
+	width: 180px;
+    border: 2px solid #1F221A;
+	border-radius: 50px;
+	margin-top: 30px;
+	margin-left: 55px;
+}
+
+#search-header h3 {
+	opacity: 50%;
+}
+
+/* .shop-now-header:hover {
+	background-color: #E09992;
+	color: #fff;
+	border-radius: 10px;
+	transition: .1s;
+} */
+
+.openMenu {
+    margin-top: 12px;
+    margin-left: 0px;
+    font-size: 35px;
+	grid-column: -1/-1;
+	margin-top: 30px;
+}
+
+.fa-search {
+    margin-left: -55px;
+    margin-right: 40px;
+    font-size: 17px;
+}
