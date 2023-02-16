@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zima</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Montserrat" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="hidden">Zima Page</h1>
+    <div id="container">
+        <header class="grid">
+            <div id="logo">
+                <a href="index.html"><img src="images/Logo.svg" alt="Zima Logo"></a>
+            </div>
+            <nav id="main-nav">
+                <h2 class="hidden">Main Navigation</h2>
+                   <ul>
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="#">BEST DEALS</a></li>
+                       <li><a href="#">SHOP</a></li>
+                       <li><a href="#">BLOG</a></li>
+                       <li><a href="#">ABOUT</a></li>
+                       <li><a href="contact.html">CONTACT</a></li>
+                   </ul>
+               </nav>
+               <a href="#" id="search"><img src="images/search.svg" alt="Search Button"></a> 
+                              
+        </header>
+
+        <main class="grid">
+            <div>
+                <section id="issues">
+                    <h2 class="hidden">Contact Us Issue Form</h2>
+                    
+                    <ul class="grid">
+                        <li><a href="#"><input class="hidden" type="checkbox"><span> Login Issues </span></a> </li>
+                        <li><a href="#"><input class="hidden"type="checkbox"><span> Order Status </span></a> </li>
+                        <li><a href="#"><input class="hidden" type="checkbox"><span> Shipping and Returns </span></a> </li>
+                        <li><a href="#"><input class="hidden" type="checkbox"><span> Event Inquiry </span></a> </li>
+                    </ul>
+                </section>
+            </div>
+
+            <section id="contact-form">
+                <h2>Contact Us</h2>
+                   <form method="post" action="email.php" enctype="text/plain">
+                       <input id="username-form" type="text" placeholder="First Name">
+                       <input id="lastname-form" type="text" placeholder="Last Name">
+                       <input type="email" required placeholder="Email">
+                       <input id="phone" type="text" placeholder="Phone">
+                       <input id="location" type="text" placeholder="Location"> 
+                       <textarea name="msg" placeholder="Please tell us the details so we can better answer your question..."></textarea>
+                       <h3>How would you like us to contact you?</h3>
+                       <ul>
+                        <li><input id="location" type="checkbox"><span>Email</span></li>  
+                       <li><input id="location" type="checkbox"><span>Phone Call</span></li>  
+                       </ul>        
+                       <input name="submit" type="submit" value="SUBMIT">
+                   </form>
+            </section> 
+            
+
+        </main>
+
+
+        <footer id="footer" class="grid">
+            <h2 class="hidden">Zima Footer</h2>
+            <div id="f-logo">
+                <a href="contact.html"><img src="images/Logo_Footer.svg" alt="Zima Logo"></a>
+            </div>
+
+            <nav id="footer-nav">
+                <h3>Site Map</h3>
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="#">Best Deals</a></li>
+                       <li><a href="#">Shop</a></li>
+                       <li><a href="#">Blog</a></li>
+                       <li><a href="#">About</a></li>
+                       <li><a href="#">Contact</a></li>
+                   </ul>
+            </nav>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+               <p>
+                 E-MAIL: Zima@info.ca<br>Phone: 956 654 972<br>1556 Broadway<br>Suite 416<br>Toronto, ON, Canada
+                </p> 
+            </section>
+
+            <section id="subscribe">
+                <h2>Subscribe To Offers and Promotions</h2>
+                    <form method="get" action="process.php">
+                        <label class="hidden">*Email</label>
+                        <input id="username" type="text" placeholder="Full Name">
+                        <input  id="mail" type="Email" required placeholder="EMAIL">
+                        <textarea id="fav" name="msg" placeholder="Favourite Flavour"></textarea>
+                        <input id="sub" type="submit" value="Submit">
+                    </form>
+            </section>
+            
+            <section id="footer-icons">
+                <h2 class="hidden">Social Media Icons</h2>
+                <ul>
+                    <li><a href="#"><img src="images/instagram.png" alt="instagram icon"></a></li>
+                    <li><a href="#"><img src="images/facebook.png" alt="facebook icon"></a></li>
+                    <li><a href="#"><img src="images/twitter.png" alt="twitter icon"></a></li>
+                    <li><a href="#"><img src="images/snapchat.png" alt="snapchat icon"></a></li>
+                    <li><a href="#"><img src="images/tiktok.png" alt="tiktok icon"></a></li>
+                    <li><a href="#"><img src="images/youtube.png" alt="youtube icon"></a></li>
+                    <li><a href="#"><img src="images/linked_in.png" alt="linked_in icon"></a></li>
+                </ul>
+            </section>
+        </footer>
+
+    </div>
+    <script src="js/main.js"></script> 
+</body>
+</html>
