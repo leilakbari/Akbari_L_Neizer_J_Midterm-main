@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Web Page</title>
+<link href="css/mobile-main.css" rel="stylesheet" type="text/css">
+<script src="https://kit.fontawesome.com/aaac3ee71e.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="container">
+        
+        <header id="header-con" class="grid-con">
+            <div id="logo">
+                <img src="images/logo-mobile.svg" alt="image">
+            </div>
+
+            <div>
+                <a id="search-header" href="#"><i class="fa fa-search"></i><h3>Search</h3></a>
+            </div> 
+
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+        </header> 
+
+        <main>
+            <div class="grid-con" id="contact-page">
+                
+                <section id="contact-form">
+                    <h2>Contact Us</h2>
+                       <form method="post" action="email.php" enctype="text/plain">
+                           <input id="username-form" type="text" placeholder="First Name">
+                           <input id="lastname-form" type="text" placeholder="Last Name">
+                           <input type="email" required placeholder="Email">
+                           <input id="phone" type="text" placeholder="Phone">
+                           <input id="location" type="text" placeholder="Location"> 
+                           <textarea name="msg" placeholder="Please tell us the details so we can better answer your question..."></textarea>
+                           <h3>How would you like us to contact you?</h3>
+                           <ul>
+                              <li><input class="location" type="checkbox"><span>Email</span></li>  
+                              <li><input class="location" type="checkbox"><span>Phone Call</span></li>  
+                           </ul>        
+                           <input name="submit" type="submit" value="SUBMIT">
+                       </form>
+                </section> 
+
+                <img src="images/mobile-contact-background1.png" alt="shopping bag" id="contact-page-bg">
+            </div>
+
+        </main>
+
+
+        <div class="footer-con">
+
+            <div id="logo-footer">
+                <img src="images/logo-mobile.svg" alt="image">
+            </div>
+
+            <div class="fotter-con2">
+                <div class="col-2">
+                    <h3>Site Map</h3>
+                    <div class="col-2-text">
+                        <a href="#">Home</a>
+                        <a href="#">Best Deals</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Blog</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+    
+                <div class="col-3">
+                    <h3>Contact</h3>
+                    <p>Tell: +1 (416) 900-7755<br>Email: info[at]kadot.com<br>
+                        30 Fulton Way, Unit 8 Suite 100<br>Richmond Hill, Canada
+                    </p>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook"></i> 
+                        <i class="fab fa-instagram"></i> 
+                        <i class="fab fa-twitter"></i> 
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+    </div> 
+</body>
+</html>
