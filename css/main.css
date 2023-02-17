@@ -73,7 +73,7 @@ body {
 
 #search {
     margin-top: 52px;
-    border: solid 2px rgb(29, 29, 29);
+    border: solid 3px #1f221a;
     border-radius: 100px;
     margin-bottom: 33px;
     grid-column: 10/12;
@@ -88,6 +88,7 @@ body {
    color: #1f221a;
    cursor: auto;
 }
+
 
 /* 4. ---Main Hero Image--- */
 .hero-image {
@@ -117,7 +118,15 @@ body {
 	grid-column: 2/3;
     width: 120%;
     height: 50px;
-    
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#hero a:hover {
+    border: solid 3px #ffffff;
+    background-color: #1f221a;
+    color: #fff;
 }
 
 #learn {
@@ -125,7 +134,9 @@ body {
     height: 50px;
 	grid-column: 3/4;
     margin-left: 120px;
-    
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .5px;
 }
 
 /* 5. ---Memories--- */
