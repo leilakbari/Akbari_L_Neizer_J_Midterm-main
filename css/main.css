@@ -142,8 +142,8 @@ body {
 
 #hero a:hover {
     border: solid 3px #ffffff;
-    background-color: #ffffff;
-    color: #1f221a;
+    background-color: #1f221a;
+    color: #fff;
 }
 
 #learn {
