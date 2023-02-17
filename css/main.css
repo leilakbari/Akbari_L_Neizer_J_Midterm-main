@@ -641,6 +641,10 @@ body {
     font-size: 43px;
 }
 
+#issues ul li a:hover {
+    font-size: 44px;
+}
+
 #contact-form h2 {
 	color: #fff;
     font-size: 50px;
