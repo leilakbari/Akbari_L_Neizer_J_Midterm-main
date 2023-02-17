@@ -522,7 +522,7 @@ you work on and the intended audience, we may go as low as 320px */
 #history-con {
 	grid-column: 1/-1;
 	background-color: #BC8D0A;
-	height: 235px;
+	height: 255px;
 }
 
 #history-pic {
@@ -555,14 +555,15 @@ you work on and the intended audience, we may go as low as 320px */
 
 #history-text p {
 	grid-column: 1/4;
-	font-size: 7px;
+	font-size: 6.5px;
 	color: #1F221A;
 	margin-top: 37px;
-	margin-left: 25px;
-	text-align: left;
+	margin-left: 23px;
+	text-align: justify;
 	display: flex;
-    justify-content: left;
+    justify-content: center;
 	position: absolute;
+	line-height: 10px;
 }
 
 #full-video {
