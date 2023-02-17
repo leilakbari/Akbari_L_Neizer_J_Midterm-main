@@ -141,6 +141,67 @@ you work on and the intended audience, we may go as low as 320px */
 	font-size: 40px;
 }
 
+#main-nav {
+    position: absolute;
+}
+
+#main-nav label img {
+	/*background: url(../images/menu.png) center no-repeat;*/
+	border: 0px;
+	width: 40px;
+	transition: all .5s ease;
+    margin-top: 29px;
+    margin-bottom: 20px;
+    cursor: pointer;
+	grid-column: 4/-1;
+}
+
+#main-nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 41px;
+	line-height: 55px;
+}
+ 
+ #main-nav li a {
+     display: block;
+     padding: 0px 0 10px 0;
+     text-align: center;
+     color: #1f221a;
+	 font-size: 30px;
+}
+ 
+ #main-nav li {
+     border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav li:first-child {
+     border-top: 1px solid #efefef;
+	 /* padding-top: 129px;	 */
+	 top: 60%;
+ }
+ 
+ #main-nav li:last-child {
+     margin-bottom: 10px;
+ }
+
+#burger-con, #main-nav input {
+    display: none;
+	background-color: #ffffff;
+	border-radius: 2px;
+	margin-left: -22px;
+	height: 812px;
+	padding-top: 20px;
+}
+
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+
+ #main-nav input:checked ~ label img{
+    transform: rotate(90deg);
+ }
+
 /* 4. ---Main Hero Image--- */
 
 #hero-con {
@@ -778,7 +839,10 @@ you work on and the intended audience, we may go as low as 320px */
 	display: flex;
 	margin-top: 15px;
 }
-
+#contact-form input[value="SUBMIT"] {
+	text-align: center;
+	padding-left: 29px;
+}
 #contact-form input[type="submit"]:hover {
 	background-color: #BC8D0A;
 	color: #fff;
